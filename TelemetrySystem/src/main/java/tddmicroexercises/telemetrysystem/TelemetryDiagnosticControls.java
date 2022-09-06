@@ -5,6 +5,7 @@ public class TelemetryDiagnosticControls
     private final String DiagnosticChannelConnectionString = "*111#";
     
     private final ITelemetryClient telemetryClient;
+
     private String diagnosticInfo = "";
 
         public TelemetryDiagnosticControls()

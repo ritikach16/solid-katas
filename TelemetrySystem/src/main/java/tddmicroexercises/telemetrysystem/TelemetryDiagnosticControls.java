@@ -8,9 +8,9 @@ public class TelemetryDiagnosticControls
 
     private String diagnosticInfo = "";
 
-        public TelemetryDiagnosticControls()
+        public TelemetryDiagnosticControls(ITelemetryClient iTelemetryClient)
         {
-            telemetryClient = new TelemetryClient();
+            telemetryClient = iTelemetryClient;
         }
         
         public String getDiagnosticInfo(){

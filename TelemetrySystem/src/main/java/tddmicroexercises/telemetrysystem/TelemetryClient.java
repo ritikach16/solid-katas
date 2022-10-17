@@ -2,7 +2,7 @@ package tddmicroexercises.telemetrysystem;
 
 import java.util.Random;
 
-public class TelemetryClient
+public class TelemetryClient implements ITelemetryClient
 {
     public static final String DIAGNOSTIC_MESSAGE = "AT#UD";
 
